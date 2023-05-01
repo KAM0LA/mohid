@@ -1,0 +1,248 @@
+#home {
+  background: linear-gradient(155.28deg, #383638 2.06%, #0b0b0b 33.08%);
+}
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+.home_text h1 {
+  margin-top: 190px;
+  max-width: 457px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 125.5%;
+  color: #ffffff;
+}
+.home_text p {
+  max-width: 456px;
+  margin-top: 25px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125.5%;
+  color: #8b8e99;
+}
+.home_textend {
+  margin-top: 47px;
+}
+.home_textend input {
+  position: absolute;
+  /* max-width: 543px; */
+  padding: 20px 136px 20px 96px;
+  background: #ffffff;
+  border-radius: 15px;
+}
+.home_textend button {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 310px;
+  padding: 8px 16px 12px 16px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125.5%;
+  text-align: center;
+  background: #3858d6;
+  border-radius: 9px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+.home_textend img {
+  position: absolute;
+  margin-left: 40px;
+}
+.home_image img {
+  margin-top: 125px;
+  margin-left: 83px;
+}
+/* Section brands begin */
+#brands {
+  max-width: 100%;
+  background: #ffff;
+}
+.brands-card {
+  margin-left: 130px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card {
+  width: 354px;
+  margin-top: 73px;
+  margin-bottom: 135px;
+  padding: 46px 29px 45px 44px;
+  display: flex;
+  justify-content: space-between;
+  background: #f6f6f6;
+  border-radius: 22px;
+}
+.card-content {
+  margin-left: 26px;
+}
+.card-content h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #1e1d1d;
+}
+.card-content p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8b8e99;
+}
+/* Section brands end */
+
+/* Section product begin */
+#product {
+  background: #ffff;
+}
+
+.product-header p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #3858d6;
+}
+.product-header h1 {
+  margin-bottom: 65px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #1e1d1d;
+}
+.box {
+  padding: 29px 43px 28px 41px;
+  width: 334px;
+  background: #f6f6f6;
+}
+
+.product-card {
+  margin-left: 130px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  grid-row-gap: 70px;
+}
+.products h1 {
+  margin-left: -40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #1e1d1d;
+}
+/* .products img {
+  margin-left: 120px;
+} */
+.star {
+  margin-left: 120px;
+}
+.products p {
+  margin-left: -40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  line-height: 120.5%;
+  color: #000000;
+}
+p > del {
+  margin-right: 3px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120.5%;
+  text-align: right;
+  color: #8b8e99;
+  mix-blend-mode: normal;
+}
+.product-end button {
+  width: 196px;
+  padding: 10px 6px;
+  margin-top: 71px;
+  margin-left: 610px;
+  margin-bottom: 145px;
+  background: #3858d6;
+  color: #ffff;
+  border-radius: 15px;
+  border: none;
+}
+/* end of product section */
+
+/* About section begin */
+#about {
+  background: #ffff;
+}
+.about-header p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #3858d6;
+}
+.about-header h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #1e1d1d;
+}
+/* .about-card {
+  margin-bottom: 135px;
+} */
+.about-box {
+  display: flex;
+  justify-content: space-between;
+  width: 524px;
+  padding: 30px 42px 30px 34px;
+  background: #f6f6f6;
+  border-radius: 22px;
+}
+.about-box-left img {
+  width: 100%;
+}
+.about-box-right {
+  margin-left: 38px;
+}
+.about-box-right img {
+  width: 100px;
+}
+.about-box-right h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1e1d1d;
+}
+.about-box-right p {
+  margin-bottom: 13px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8b8e99;
+}
+#contact {
+  background: #ffff;
+}
+.contact-box {
+  margin-: 135px;
+}

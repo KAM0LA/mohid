@@ -1,0 +1,13 @@
+#footer {
+    padding: 23px 646px;
+    background: #0b0b0b;
+  }
+  #footer p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125.5%;
+    text-align: center;
+    color: #ffffff;
+  }

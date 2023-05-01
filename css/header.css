@@ -37,10 +37,10 @@ header {
   line-height: 24px;
   color: #8b8e99;
   border: none;
-  background-color: #0c0c0c;
+  background-color: #312F31;
 }
-.header-right{
-    margin-left: 80px;
+.header-right {
+  margin-left: 80px;
 }
 .header-right img {
   margin-left: 16px;
